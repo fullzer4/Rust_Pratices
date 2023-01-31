@@ -13,4 +13,10 @@ fn main() {
     println!("Now the value of var is {}", var);
     const STRING: &str = "hello";
     println!("The value of STRING is {}", STRING);
+    let array: [u32; 3] = [1,2,3];
+    let first_item_a = array[0];
+    println!("The value of first_itemA is {}", first_item_a);
+    let tuple: (bool, u16, u8) = (true, 2, 3);
+    let first_item_t = tuple.0;
+    println!("The value of first_itemT is {}", first_item_t);
 }
