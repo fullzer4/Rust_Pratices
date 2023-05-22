@@ -1,5 +1,5 @@
 fn main() {
-    let tup = (500, "hi", true);
+    let tup: (i32, &str, bool) = (500, "hi", true);
 
     println!("{}", tup.1);
     

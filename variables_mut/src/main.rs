@@ -1,5 +1,5 @@
 fn main() {
-    let mut x = 5;
+    let mut x:i32 = 5;
 
     println!("O valor de x é: {}", x);
 

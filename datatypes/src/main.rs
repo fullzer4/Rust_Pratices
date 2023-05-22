@@ -1,35 +1,35 @@
 fn main() {
     let x: i8 = 10;
-    println!("{}", x)
+    println!("{}", x);
 
-    let y: u8 = 10;
+    let _y: u8 = 10;
 
-    let decimal = 02_55;
-    let hex = 0xff;
-    let octal = 0o377;
-    let binary = 0b1111_1111;
+    let decimal: i32 = 02_55;
+    let hex: i32 = 0xff;
+    let octal: i32 = 0o377;
+    let binary: i32 = 0b1111_1111;
 
     println!("{}", decimal);
     println!("{}", hex);
     println!("{}", octal);
     println!("{}", binary);
 
-    let byte = b'A';
+    let byte: u8 = b'A';
     println!("{}",byte);
 
-    let xf = 2.00;
-    let yf: f32 = 1.0;
+    let _xf: f64 = 2.00;
+    let _yf: f32 = 1.0;
 
-    let t = true;
-    let f: bool = false;
+    let _t: bool = true;
+    let _f: bool = false;
 
-    let c = 'c';
+    let c: char = 'c';
 
-    println!("{}",c)
+    println!("{}",c);
 
-    let a = 10;
-    let b = 5;
+    let a: i32 = 10;
+    let b: i32 = 5;
 
-    let remeder  = a % b;
+    let remeder: i32  = a % b;
     println!("{}", remeder)
 }
